@@ -10,6 +10,9 @@
 a{
     text-decoration: none;
 }
+p, h1{
+    transition: 0.4s;
+}
 /*header*/
 header{
     padding:10px;
@@ -130,7 +133,7 @@ footer p{
         align-items: center;
         justify-content: center;
     }
-    #logo{
+    .logo{
         display: flex;
         align-items: center;
         justify-content: center;
@@ -150,6 +153,16 @@ footer p{
     #hr-header{
         margin:10px auto;
     }
+}
+#btn{
+    padding:10px;
+    background-color: #49c8f5;
+    border:none;
+    border-radius:2px;
+    margin-right:10px;
+}
+header #btn{
+    background-color: white;
 }
 @media screen and (max-width:1105px){
     .header-texto{

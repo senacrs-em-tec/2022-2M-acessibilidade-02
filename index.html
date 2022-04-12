@@ -6,70 +6,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Acessibilidade</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="acessibilidade-simbolo.png">
+    <link rel="icon" href="imgs/acessibilidade-simbolo.png">
 </head>
 <body>
     <header>
         <div class="header-menus">
-            <a id="logo" href="index.html">ACESSIBILIDADE</a>
+            <a class="logo" id="h1" href="index.html">ACESSIBILIDADE</a>
             <ul class="menu">
-                <li><a href="#tdah">TDAH</a></li>
-                <li><a href="#dislexia">Dislexia</a></li>
+                <li><a id="h2" href="#tdah">TDAH</a></li>
+                <li><a id="h3" href="#dislexia">Dislexia</a></li>
             </ul>
         </div>
         <div class="header-conteudo">
             <div class="header-texto">
-                <h1>Acessibilidade</h1>
+                <h1 id="h4">Acessibilidade</h1>
                 <hr id="hr-header">
-                <p>Acessibilidade é a possibilidade de acessar um lugar, serviço, produto ou informação de maneira segura e autônoma, sem nenhum tipo de barreira, beneficiando a todas as pessoas, com ou sem deficiência, em todas as fases da vida.</p>
+                <p id="h5">Acessibilidade é a possibilidade de acessar um lugar, serviço, produto ou informação de maneira segura e autônoma, sem nenhum tipo de barreira, beneficiando a todas as pessoas, com ou sem deficiência, em todas as fases da vida.</p>
             </div>
             <img id="foto-header" src="imgs/acessibilidade-simbolo.png">
         </div>
+        <button id="btn" onclick="fonteh('increase')">A+</button>
+        <button id="btn" onclick="fonteh('decrease')">A-</button>
     </header>
     <main>
         <section>
-            <button type="button" onclick="fonte()">CLIQUE</button>
             <hr id="hr-main">
+            <button id="btn" onclick="fontet('increase')">A+</button>
+            <button id="btn" onclick="fontet('decrease')">A-</button>
             <div id="tdah">
-                <h1>TDAH: O que é?</h1>
-                <p>O que significa e o que é:</p>
+                <h1 id="t1">TDAH: O que é?</h1>
+                <p id="t2">O que significa e o que é:</p>
                 <img id="main-img" src="imgs/tdah-img.png">
                 <div id="tdah-texto">
-                    <p id="textog">TDAH(transtorno do déficit de atenção com hiperatividade) é um transtorno genético, que causa falta de atenção, impulsividade e ansiedade na maioria das vezes. Quase sempre aparece durante a infância e pode afetar a pessoa pelo resto da vida.</p>
-                    <p id="textog">Muitas vezes a doença é descoberta durante a vida adulta, ou até mesmo quando velho. Crianças, adolescentes e adultos com TDHA muita das vezes tem dificuldade para organizar trabalhos, compromissos ou até relacionamentos.</p>
+                    <p id="t3">TDAH(transtorno do déficit de atenção com hiperatividade) é um transtorno genético, que causa falta de atenção, impulsividade e ansiedade na maioria das vezes. Quase sempre aparece durante a infância e pode afetar a pessoa pelo resto da vida.</p>
+                    <p id="t4">Muitas vezes a doença é descoberta durante a vida adulta, ou até mesmo quando velho. Crianças, adolescentes e adultos com TDHA muita das vezes tem dificuldade para organizar trabalhos, compromissos ou até relacionamentos.</p>
                 </div>
             </div>
             <div id="dislexia">
-                <h1>Dislexia: O que é?</h1>
-                <p>O que é:</p>
+                <h1 id="t5">Dislexia: O que é?</h1>
+                <p id="t6">O que é:</p>
                 <img id="main-img" src="imgs/dislexia-img.png">
                 <div id="dislexia-texto">
-                    <p>Dislexia, é um transtorno que afeta na hora da leitura e soletração das palavras. Indivíduos com dislexia por sua vez tem dificuldade em falar, não conseguir relacionar letras e sons, erros constantes na hora da escrita, grande dificuldade no estudo e por muitas vezes dificuldade em localização de esquerda e direita.</p>
+                    <p id="t7">Dislexia, é um transtorno que afeta na hora da leitura e soletração das palavras. Indivíduos com dislexia por sua vez tem dificuldade em falar, não conseguir relacionar letras e sons, erros constantes na hora da escrita, grande dificuldade no estudo e por muitas vezes dificuldade em localização de esquerda e direita.</p>
                 </div>
             </div>
             <div id="como-lidar">
-                <h1>Como lidar?</h1>
-                <p>A melhor forma de se lidar com ambos os transtornos é descobri-las precocemente, se não a melhor saída é ajuda com tratamento psicológico. Não existe uma cura, porém não é impossível ter uma vida normal, como por exemplo criando estratégias para lidar com os problemas de atenção ou associação. Por esse motivo a terapia é muito importante.</p>
-                <p>É aconselhado para os pais estimular os filhos a estimular/gastar essa energia através de pinturas, instrumentos musicais ou até mesmo praticar esportes.</p>
+                <h1 id="t8">Como lidar?</h1>
+                <p id="t9">A melhor forma de se lidar com ambos os transtornos é descobri-las precocemente, se não a melhor saída é ajuda com tratamento psicológico. Não existe uma cura, porém não é impossível ter uma vida normal, como por exemplo criando estratégias para lidar com os problemas de atenção ou associação. Por esse motivo a terapia é muito importante.</p>
+                <p id="t10">É aconselhado para os pais estimular os filhos a estimular/gastar essa energia através de pinturas, instrumentos musicais ou até mesmo praticar esportes.</p>
             </div>
             <div id="curiosidades">
-                <h1>Curiosidades:</h1>
-                <p>O TDHA pode ser considerado/classificado em três subtipos, como, predominantemente desatento, predominantemente hiperativo/impulsivo e combinado de acordo com os sintomas.</p>
-                <p>A dislexia também apresenta níveis de dificuldade como, leve, moderada e severa, se baseando no nível de dificuldade apresentado.</p>
-                <p>A maior causa na maioria das vezes é o fator genético dentro da família, porém é dito que em relação a fatores de “fora” é possível que até mesmo estresses maternos possam aumentar o risco do desenvolvimento desses transtornos.</p>
+                <h1 id="t11">Curiosidades:</h1>
+                <p id="t12">O TDHA pode ser considerado/classificado em três subtipos, como, predominantemente desatento, predominantemente hiperativo/impulsivo e combinado de acordo com os sintomas.</p>
+                <p id="t13">A dislexia também apresenta níveis de dificuldade como, leve, moderada e severa, se baseando no nível de dificuldade apresentado.</p>
+                <p id="t14">A maior causa na maioria das vezes é o fator genético dentro da família, porém é dito que em relação a fatores de “fora” é possível que até mesmo estresses maternos possam aumentar o risco do desenvolvimento desses transtornos.</p>
             </div>
             <div class="referencias">
-                <h1>Referências bibliográficas</h1>
-                <p>TENORIO, Goretti; PINHEIRO, Chloé. O que é dislexia: causa, sintomas, diagnóstico e tratamento. Disponivel em <a id="link" target="_blank" href="https://saude.abril.com.br/medicina/o-que-e-dislexia-causa-sintomas-diagnostico-e-tratamento/">https://saude.abril.com.br/medicina/o-que-e-dislexia-causa-sintomas-diagnostico-e-tratamento/</a> (2018). Acesso em 05 abr 2022.</p>
-                <p>ABREU, Marcia; FONSECA, Andressa. Curiosidades sobre o TDAH. Disponivel em <a id="link" target="_blank" href="https://rsaude.com.br/cuiaba/materia/curiosidades-sobre-o-tdah/8101">https://rsaude.com.br/cuiaba/materia/curiosidades-sobre-o-tdah/8101</a> Acesso em: 05 abr 2022.</p>
-                <p>ABREU, Marcia; FONSECA, Andressa. Curiosidades sobre o TDAH. Revista Saúde. Disponível em: <a id="link" target="_blank" href="https://rsaude.com.br/cuiaba/materia/curiosidades-sobre-o-tdah/8101">https://rsaude.com.br/cuiaba/materia/curiosidades-sobre-o-tdah/8101</a>. Acesso em: 05 abr. 2022. </p>
-                <p>DISLEXIA: 5 CURIOSIDADES SOBRE TRANSTORNO DE APRENDIZAGEM. Escolas do Bem. Disponível em: <a id="link" target="_blank" href="https://escolasdobem.com.br/rascunho-automatico-5-curiosidades-sobre-transtorno-de-aprendizagem/">https://escolasdobem.com.br/rascunho-automatico-5-curiosidades-sobre-transtorno-de-aprendizagem/</a>. Acesso em: 05 abr. 2022. </p>
+                <h1 id="t15">Referências bibliográficas</h1>
+                <p id="t16">TENORIO, Goretti; PINHEIRO, Chloé. O que é dislexia: causa, sintomas, diagnóstico e tratamento. Disponivel em <a id="link" target="_blank" href="https://saude.abril.com.br/medicina/o-que-e-dislexia-causa-sintomas-diagnostico-e-tratamento/">https://saude.abril.com.br/medicina/o-que-e-dislexia-causa-sintomas-diagnostico-e-tratamento/</a> (2018). Acesso em 05 abr 2022.</p>
+                <p id="t17">ABREU, Marcia; FONSECA, Andressa. Curiosidades sobre o TDAH. Disponivel em <a id="link" target="_blank" href="https://rsaude.com.br/cuiaba/materia/curiosidades-sobre-o-tdah/8101">https://rsaude.com.br/cuiaba/materia/curiosidades-sobre-o-tdah/8101</a> Acesso em: 05 abr 2022.</p>
+                <p id="t18">ABREU, Marcia; FONSECA, Andressa. Curiosidades sobre o TDAH. Revista Saúde. Disponível em: <a id="link" target="_blank" href="https://rsaude.com.br/cuiaba/materia/curiosidades-sobre-o-tdah/8101">https://rsaude.com.br/cuiaba/materia/curiosidades-sobre-o-tdah/8101</a>. Acesso em: 05 abr. 2022. </p>
+                <p id="t19">DISLEXIA: 5 CURIOSIDADES SOBRE TRANSTORNO DE APRENDIZAGEM. Escolas do Bem. Disponível em: <a id="link" target="_blank" href="https://escolasdobem.com.br/rascunho-automatico-5-curiosidades-sobre-transtorno-de-aprendizagem/">https://escolasdobem.com.br/rascunho-automatico-5-curiosidades-sobre-transtorno-de-aprendizagem/</a>. Acesso em: 05 abr. 2022. </p>
             </div>
         </section>
     </main>
     <footer>
         <hr>
-        <p>Desenvolvido por: <br> Pietro Rodrigues <br> Guilherme Mulazzani <br> Davi Rubim <br> Victor</p>
+        <p id="20">Desenvolvido por: <br> Pietro Rodrigues <br> Guilherme Mulazzani <br> Davi Rubim <br> Victor</p>
     </footer>
     <script src="js/script.js"></script>
 </body>
