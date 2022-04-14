@@ -116,6 +116,7 @@ section:first-child p{
     position: fixed;
     left:90%;
     top:90%;
+    color:black
 }
 /*footer*/
 footer{
@@ -172,9 +173,22 @@ footer p{
     border:none;
     border-radius:2px;
     margin-right:10px;
+    cursor: pointer;
 }
 header #btn{
     background-color: white;
+}
+.btnfonte{
+    position:fixed;
+    left:90%;
+    top:80%;
+}
+#botao{
+    padding:10px;
+    background-color:#49c8f5;
+    border:none;
+    border-radius:2px;
+    cursor: pointer;
 }
 @media screen and (max-width:1105px){
     .header-texto{
