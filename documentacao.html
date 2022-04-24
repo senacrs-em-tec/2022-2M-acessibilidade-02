@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fonte.css">
+    <link rel="icon" href="imgs/acessibilidade-simbolo.png">
+    <title>Documentação</title>
+</head>
+<body>
+    <header>
+        <div class="header-menus">
+            <a class="logo" href="index.html">ACESSIBILIDADE</a>
+            <ul class="menu">
+                <li><a href="#tdah">TDAH</a></li>
+                <li><a href="#dislexia">Dislexia</a></li>
+                <li><a href="documentacao.html">Documentação</a></li>
+            </ul>
+        </div>
+        <div class="header-conteudo">
+            <div class="header-texto">
+                <h1 class="n1">Acessibilidade</h1>
+                <hr id="hr-header">
+                <p class="n1">Acessibilidade é a possibilidade de acessar um lugar, serviço, produto ou informação de maneira segura e autônoma, sem nenhum tipo de barreira, beneficiando a todas as pessoas, com ou sem deficiência, em todas as fases da vida.</p>
+            </div>
+            <img id="foto-header" src="imgs/acessibilidade-simbolo.png">
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <hr id="hr-main">
+            <h1 class="n1">Como que funciona a nossa ferramenta?</h1>
+            <p class="n1">É simples! Nessa página iremos explicar como! Sinta-se livre para usar ela em seu site.</p>
+            <p class="n1">Este é o código de JavaScript que nós usamos para aumentar a fonte dos textos:</p>
+            <div class="bloco-js">
+                <p class="n1">
+                    function funcao(){ <br>
+                    var x = document.getElementsByClassName("Nome da classe dos textos"); <br>
+                    for ( var i = 0; i < x.length; i++) { <br>
+                    x[i].style.fontSize="1.5rem"; <br>
+                    } <br>
+                }; <br>
+                </p>
+            </div>
+            <p class="n1">E este é o código para diminuir a fonte dos textos:</p>
+            <div class="bloco-js">
+                <p class="n1">
+                    function funcao(){ <br>
+                    var x = document.getElementsByClassName("Nome da classe dos textos"); <br>
+                    for ( var i = 0; i < x.length; i++) { <br>
+                    x[i].style.fontSize=" "; <br>
+                    } <br>
+                }; <br>
+                </p>
+            </div>
+            <p class="n1">No código para diminuir, o local que fica o tamanho da fonte fica vazio, isso faz que o texto volte para o tamanho original dele.</p>
+        </section>
+    </main>
+    <a href="documentacao.html" id="topo">TOPO</a>
+    <div class="btnfonte">
+        <button id="botao" onclick="funcao()">A+</button>
+        <button id="botao" onclick="funcao2()">A-</button>
+    </div>
+    <footer>
+        <hr>
+        <p class="n1">Desenvolvido por: <br> Pietro Rodrigues <br> Guilherme Mulazzani <br> Davi Rubim <br> Victor</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

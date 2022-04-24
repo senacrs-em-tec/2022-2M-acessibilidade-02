@@ -86,28 +86,13 @@ section:first-child{
     max-width:1200px;
     padding:20px;
 }
-section:first-child h1{
-    font-family: 'OpenDyslexic';
-    font-size: 40px;
-    margin:0 0 10px 0;
-}
-section:first-child img{
-    width:100%;
-    height:auto;
-    max-width:800px;
-    display: block;
-    border-radius:10px;
-    margin:20px 0 20px 0;
-}
-section:first-child p{
-    margin:10px 0 10px 0;
-    line-height:30px;
-    text-align: justify;
-    max-width:800px;
-}
-#link{
-    text-decoration: underline;
-    color:blue;
+.bloco-js{
+    border:1px solid black;
+    background-color: antiquewhite;
+    margin: 20px auto;
+    padding:10px;
+    max-width:1000px;
+    word-break: break-all;
 }
 #topo{
     background-color: #49c8f5;
@@ -117,6 +102,21 @@ section:first-child p{
     right:0;
     top:90%;
     color:black
+}
+.btnfonte{
+    position:fixed;
+    top:50%;
+    right:0;
+    max-width: 150px;
+    display: flex;
+    flex-direction: column;
+}
+#botao{
+    padding:20px;
+    background-color:#49c8f5;
+    border:none;
+    border-radius:2px;
+    cursor: pointer;
 }
 /*footer*/
 footer{
@@ -128,11 +128,6 @@ footer{
 footer p{
     line-height: 30px;
     text-align: center;
-}
-@media screen and (max-width:425px){
-    #link{
-        word-break: break-all;
-    }
 }
 @media screen and (max-width:768px){
     #topo{
@@ -166,43 +161,4 @@ footer p{
     #hr-header{
         margin:10px auto;
     }
-}
-#btn{
-    padding:10px;
-    background-color: #49c8f5;
-    border:none;
-    border-radius:2px;
-    margin-right:10px;
-    cursor: pointer;
-}
-header #btn{
-    background-color: white;
-}
-.btnfonte{
-    position:fixed;
-    top:50%;
-    right:0;
-    max-width: 150px;
-    display: flex;
-    flex-direction: column;
-}
-#botao{
-    padding:20px;
-    background-color:#49c8f5;
-    border:none;
-    border-radius:2px;
-    cursor: pointer;
-}
-@media screen and (max-width:1105px){
-    .header-texto{
-        max-width:450px;
-    }
-}
-.bloco-js{
-    border:1px solid black;
-    background-color: antiquewhite;
-    margin: 20px auto;
-    padding:10px;
-    max-width:1000px;
-    word-break: break-all;
 }
