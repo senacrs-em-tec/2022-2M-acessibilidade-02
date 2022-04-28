@@ -9,6 +9,7 @@
 }
 a{
     text-decoration: none;
+    color:black;
 }
 p, h1{
     transition: 0.4s;
@@ -161,4 +162,13 @@ footer p{
     #hr-header{
         margin:10px auto;
     }
+}
+footer ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+footer ul li{
+    margin:10px;
 }

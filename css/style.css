@@ -206,3 +206,12 @@ header #btn{
     max-width:1000px;
     word-break: break-all;
 }
+footer ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+footer ul li{
+    margin:10px;
+}
